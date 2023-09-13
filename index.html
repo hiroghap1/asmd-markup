@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang=ja>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>応用コーディング</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@500&family=Shippori+Mincho+B1:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer="defer"></script>
+    <script src="assets/js/script.js" defer="defer"></script>
+</head>
+<body>
+<div class="index-hero">
+    <div class="index-headding-logo">
+        <img src="assets/images/logo.svg" alt="星酒" width="407" height="460" decoding="async">
+    </div>
+    <div id="swiper" class="swiper index-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide index-slide">
+                <img class="index-slider__title" src="assets/images/hoshizake-title.png" alt="星米から作る夜酒 HOSHIZAKE 星酒" width="1749" height="892">
+                <img class="index-slider__image" src="assets/images/hero-1.jpg" alt="" width="1920" height="1505" decoding="async">
+            </div>
+            <div class="swiper-slide index-slide">
+                <img class="index-slider__title" src="assets/images/kagayaki-title.png" alt="全量無農薬栽培米 KAGAYAKI 星輝" width="1484" height="903">
+                <img class="index-slider__image" src="assets/images/hero-2.jpg" alt="" width="1920" height="1505" decoding="async">
+            </div>
+            <div class="swiper-slide index-slide">
+                <img class="index-slider__title" src="assets/images/galaxy-title.png" alt="超発泡純米 GALAXY 銀河" width="1647" height="903">
+                <img class="index-slider__image" src="assets/images/hero-3.jpg" alt="" width="1920" height="1505" decoding="async">
+            </div>
+        </div>
+    </div>
+    <figure class="index-hero-bottle">
+        <img src="assets/images/hoshizake-bottle.png" class="index-hero-bottle__image" alt="星酒 720mlボトル" width="746" height="1920" decoding="async">
+        <img src="assets/images/kagayaki-bottle.png" class="index-hero-bottle__image" alt="星輝 720mlボトル" width="746" height="1920" decoding="async">
+        <img src="assets/images/galaxy-bottle.png" class="index-hero-bottle__image" alt="銀河 720mlボトル" width="746" height="1920" decoding="async">
+    </figure>
+</div>
+<section class="section section-product">
+    <div class="section__inner">
+        <h2 class="section-title" data-en-title="Product List">商品一覧</h2>
+        <div class="section-product__list">
+            <article class="section-product__item">
+                <a href="" class="section-product__link">
+                    <img src="assets/images/hoshizake-bottle.png" class="section-product__item-image" alt="" width="746" height="1920">
+                    <h3 class="section-product__title">星酒-HOSHIZAKE-</h3>
+                    <p class="section-product__text">自社農場で作る専用酒米「星米」から作られる、ほんのり甘くて軽やかな夜酒。</p>
+                </a>
+            </article>
+            <article class="section-product__item">
+                <a href="" class="section-product__link">
+                    <img src="assets/images/kagayaki-bottle.png" class="section-product__item-image" alt="" width="746" height="1920">
+                    <h3 class="section-product__title">星輝-KAGAYAKI-</h3>
+                    <p class="section-product__text">全量無農薬栽培の「山田錦」から醸される、香り高い大吟醸。</p>
+                </a>
+            </article>
+            <article class="section-product__item">
+                <a href="" class="section-product__link">
+                    <img src="assets/images/galaxy-bottle.png" class="section-product__item-image" alt="" width="746" height="1920">
+                    <h3 class="section-product__title">銀河-GALAXY-</h3>
+                    <p class="section-product__text">「瓶内二次発酵」で無数の泡を閉じ込めた、超スパークリング純米酒。</p>
+                </a>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="section section-concept">
+    <div class="wave">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="wave-line">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,0,0,0.4)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,0,0,0.1)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#000" />
+            </g>
+        </svg>
+    </div>
+    <div class="section-concept__inner">
+        <div class="section-concept__content">
+            <h2 class="section-concept__title">夜空を舞う飲み心地</h2>
+            <p class="section-concept__text">芳醇な香りと軽やかな口当たり<br>
+                食後酒として楽しむ新しい感覚の日本酒です</p>
+            <a href="" class="button button-white">商品コンセプト</a>
+        </div>
+        <img src="assets/images/bottle-bg.jpg" class="section-concept__image" alt="" width="1920" height="1280" loading="lazy">
+    </div>
+</section>
+<section class="section section-company">
+    <div class="section__inner">
+        <div class="section-company__body">
+            <figure class="section-company__figure">
+                <img src="" class="section-company__image" alt="">
+            </figure>
+            <div class="section-company__contents">
+                <h2 class="section-company__title">星空酒造の想い</h2>
+                <div class="section-company__text">
+                    <p>私たち「星空酒造」は、自然の美しさと、人々の日常の喜びを結びつけるために酒造りを続けてきました。<br>
+                        日本の四季は、美しい景色、鮮やかな色彩、そして何よりも感動的な星空を私たちにプレゼントしてくれます。<br>
+                        星空のように広がる無限の可能性と、その中で輝く一つ一つの星のような人々の瞬間の幸せを、私たちの酒で表現したいと思っています。</p>
+                    <p>私たちが大切にしているのは、伝統の技と新しい感覚を融合させた酒造り。<br>
+                        そして、それを通じて、人々の心の中に新しい風景を描くこと。
+                        <br>夜空の星々が私たちに感動と希望を与えてくれるように、「星酒」もまた、皆さまの日常に小さな奇跡と喜びの瞬間を届けたいと願っています。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__inner footer__copyright section__inner">
+        <ul class="footer__copyright-menu">
+            <li class="footer__copyright-menu-item">
+                <a class="footer__copyright-menu-link" href="">プライバシーポリシー</a>
+            </li>
+            <li class="footer__copyright-menu-item">
+                <a class="footer__copyright-menu-link" href="">特定商取引法に基づく表示</a>
+            </li>
+        </ul>
+        <div class="footer__copyright-caption">
+            &copy; 2023 HOSHIZAKE.
+        </div>
+    </div>
+    </div>
+</footer>
+</body>
+</html>

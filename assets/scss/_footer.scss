@@ -1,0 +1,36 @@
+.footer {
+  position: relative;
+  margin-top:calc(207 / 1000 * 100vw);
+  background-color: #231815;
+  color: white;
+  padding-block: var(--space-x8);
+}
+.footer::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  content: '';
+  display: block;
+  width: 100%;
+  height: calc(207 / 1000 * 100vw);
+  margin-bottom: 0;
+  background-color: #231815;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright-menu {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+}
