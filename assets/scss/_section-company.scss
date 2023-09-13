@@ -1,0 +1,24 @@
+.section-company {
+  background-color: var(--color-black);
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+}
+.section-company__body {
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+.section-company__figure {
+  flex: 1;
+}
+.section-company__contents {
+  flex: 1;
+  background-color: rgba(255,255,255,.8);
+  padding: var(--space-x2) var(--space-x4) var(--space-x4);
+  @media (min-width: 768px) {
+    padding: var(--space-x4) var(--space-x8) var(--space-x8);
+    margin-top: var(--space-x10);
+    margin-left: calc(var(--space-x10) * -1);
+  }
+}
