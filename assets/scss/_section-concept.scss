@@ -34,7 +34,7 @@
 
 .section-concept__image {
   grid-area: concept;
-  @media not secreen and (min-width: 768px) {
+  @media not screen and (min-width: 768px) {
     height: 100%;
     object-fit: cover;
   }
