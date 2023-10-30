@@ -1,6 +1,5 @@
 .footer {
   position: relative;
-  margin-top:calc(207 / 1000 * 100vw);
   background-color: #231815;
   color: white;
   padding-block: var(--space-x8);
@@ -24,13 +23,17 @@
 }
 
 .footer__copyright {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .footer__copyright-menu {
   display: flex;
   list-style: none;
   gap: 2em;
+  padding-left: 0;
 }

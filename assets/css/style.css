@@ -947,6 +947,7 @@ img {
   min-height: 70vh;
   display: grid;
   align-content: center;
+  padding-bottom: calc(20.7vw + var(--space-x15));
 }
 
 @media (min-width: 768px) {
@@ -974,7 +975,6 @@ img {
 
 .footer {
   position: relative;
-  margin-top: 20.7vw;
   background-color: #231815;
   color: white;
   padding-block: var(--space-x8);
@@ -1000,15 +1000,21 @@ img {
 }
 
 .footer__copyright {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .footer__copyright-menu {
   display: flex;
   list-style: none;
   gap: 2em;
+  padding-left: 0;
 }
 
 .button {

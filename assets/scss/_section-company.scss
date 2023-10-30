@@ -3,6 +3,7 @@
   min-height: 70vh;
   display: grid;
   align-content: center;
+  padding-bottom: calc(207 / 1000 * 100vw + var(--space-x15));
 }
 .section-company__body {
   @media (min-width: 768px) {
