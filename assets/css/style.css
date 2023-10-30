@@ -978,6 +978,7 @@ img {
   background-color: #231815;
   color: white;
   padding-block: var(--space-x8);
+  font-size: 14px;
 }
 
 .footer::before {
